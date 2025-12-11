@@ -281,6 +281,216 @@
             "letterSpacing": "tight",
             "transform": "lowercase"
           }
+        },
+        {
+          "id": "8f52efc7-cf5c-44-jjb1cd-8ejdhi3wu4c4320",
+          "type": "heading",
+          "variant": "heading",
+          "props": {
+            "level": 2,
+            "content": "Get started in minutes",
+            "color": "#1E293B",
+            "align": "left",
+            "weight": "semibold",
+            "italic": true,
+            "margin": "1rem 0",
+            "transform": "capitalize"
+          }
+        },
+        {
+          "id": "8f52efc7-cf5c-44-jjb1cd-8dd20e4c3455",
+          "type": "heading",
+          "variant": "heading",
+          "props": {
+            "level": 3,
+            "content": "Get started in minutes",
+            "color": "#334155",
+            "align": "left",
+            "weight": "medium",
+            "underline": true,
+            "margin": "0.75rem 0",
+            "letterSpacing": "wide"
+          }
+        },
+        {
+          "id": "8f52efc7-cf5c-44-jjb1cd-8dk330e4c4320",
+          "type": "heading",
+          "variant": "heading",
+          "props": {
+            "level": 4,
+            "content": "Get started in minutes",
+            "color": "#475569",
+            "align": "left",
+            "weight": "medium",
+            "underline": false,
+            "margin": "0.5rem 0"
+          }
+        },
+        {
+          "id": "8f52efc7-cf5c-34-jjb1cd-8dd20e4c4320",
+          "type": "heading",
+          "variant": "heading",
+          "props": {
+            "level": 5,
+            "content": "Get started in minutes",
+            "color": "#64748B",
+            "align": "left",
+            "weight": "medium",
+            "underline": false,
+            "margin": "0.25rem 0"
+          }
+        },
+        {
+          "id": "8f52efc7-cf5c-44-ddb1cd-8dd20e4c4320",
+          "type": "heading",
+          "variant": "heading",
+          "props": {
+            "level": 6,
+            "content": "Get started in minutes",
+            "color": "#94A3B8",
+            "align": "left",
+            "weight": "medium",
+            "underline": false,
+            "margin": "0.25rem 0"
+          }
+        },
+        {
+          "id": "8f52ef3e-cf5c-44-jjb1cd-8dd20e4c123edbjc",
+          "type": "card",
+          "variant": "image-top",
+          "props": {
+            "title": "Empowering AI and Artificial Intelligence",
+            "subtitle": "We help businesses grow faster using AI-driven solutions and automation.",
+            "image": {
+              "src": "https://m.media-amazon.com/images/I/815K8DgRN3L._AC_UF1000,1000_QL80_.jpg",
+              "alt": "AI technology concept image"
+            },
+            "tags": ["AI", "ML", "LLM"],
+            "button": [
+              {
+                "label": "Discover AI",
+                "action": "navigate",
+                "to": "/about",
+                "style": "secondary",
+                "size": "large"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8f52ef3e-cf5c-44-hj8cd-8dd20e4c123edbjc",
+          "type": "card",
+          "variant": "bg-image",
+          "props": {
+            "title": "Empowering AI and Artificial Intelligence",
+            "subtitle": "We help businesses grow faster using AI-driven solutions and automation.",
+            "image": {
+              "src": "https://m.media-amazon.com/images/I/815K8DgRN3L._AC_UF1000,1000_QL80_.jpg",
+              "alt": "AI technology concept image"
+            },
+            "tags": ["AI", "ML", "LLM"],
+            "button": [
+              {
+                "label": "Discover AI",
+                "action": "navigate",
+                "to": "/about",
+                "style": "default",
+                "size": "large"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8f52ef3e-cf5c-e3-hj8cd-8dd20e4c123edbjc",
+          "type": "card",
+          "variant": "social-profile",
+          "props": {
+            "title": "this title",
+            "socialProfile": {
+              "avatar": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+              "name": "Jerome Bell",
+              "username": "whitefish664",
+              "title": "Constructive and destructive waves",
+              "description": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+            },
+            "button": [
+              {
+                "label": "follow",
+                "action": "navigate",
+                "to": "/about",
+                "style": "outline",
+                "size": "large"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8f52ef3e-cef3-e3-hj8cd-8dd20e4c123edbjc",
+          "type": "card",
+          "variant": "article-card",
+          "props": {
+            "image": {
+              "src": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+              "alt": "Spider-Man: Across the Spider-Verse",
+              "aspectRatio": "16:9"
+            },
+            "badge": ["Sony", "Miles Morales"],
+            "title": "Spider-Man: Across the Spider-Verse",
+            "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an...",
+            "author": {
+              "avatar": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+              "name": "Sainath Reddy",
+              "date": "July 6 2023"
+            },
+            "bookmark": true
+          }
+        },
+        {
+          "id": "8f5gt54ed-cef3-e3-hj8cd-8dd20e4c123edbjc",
+          "type": "card",
+          "variant": "icon-info",
+          "props": {
+            "icon": {
+              "src": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+              "alt": "Live logs icon",
+              "size": "large"
+            },
+            "title": "Live logs",
+            "subtitle": "See your workflow run in realtime with color and emoji. It's one click to copy a link that highlights a specific line number to share a CI/CD failure.",
+            "description": "Linux, macOS, Windows, ARM, GPU, and containers make it easy to build and test all your projects. Run directly on a VM or inside a container. Use your own VMs, in the cloud or on-prem, with self-hosted runners."
+          }
+        },
+        {
+          "id": "8f5gt54ed-cef3-e3-hj8cd-835467yuh123edbjc",
+          "type": "card",
+          "variant": "user-profile",
+          "props": {
+            "title": "Data Scientist Profile",
+            "description": "Intern at the Falaa company.",
+            "user": {
+              "avatar": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+              "name": "Johep Waillim",
+              "position": "Data Scientist",
+              "followers": "1.5M",
+              "following": "92"
+            },
+            "button": [
+              {
+                "label": "follow",
+                "action": "navigate",
+                "to": "/about",
+                "style": "primary",
+                "size": "large"
+              },
+              {
+                "label": "message",
+                "action": "navigate",
+                "to": "/about",
+                "style": "primary",
+                "size": "large"
+              }
+            ]
+          }
         }
       ]
     }
