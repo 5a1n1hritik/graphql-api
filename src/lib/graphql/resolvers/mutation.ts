@@ -6,4 +6,4 @@
 //   updatePage: (_: any, { input }: any) => pageService.updatePage(input)
 // };
 
-export const Mutation = {}
+export const Mutation = {};

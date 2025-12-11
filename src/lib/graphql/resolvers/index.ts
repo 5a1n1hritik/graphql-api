@@ -1,8 +1,7 @@
+import { GraphQLScalarType, Kind, type ValueNode } from "graphql";
 import { Query } from "./query";
-import { Mutation } from "./mutation";
-import { GraphQLScalarType, Kind, ValueNode } from "graphql";
 
-function parseLiteral(ast: ValueNode): any {
+function parseLiteral(ast: ValueNode): unknown {
   switch (ast.kind) {
     case Kind.STRING:
     case Kind.BOOLEAN:
@@ -13,7 +12,7 @@ function parseLiteral(ast: ValueNode): any {
       return Number(ast.value);
 
     case Kind.OBJECT: {
-      const result: any = {};
+      const result: Record<string, unknown> = {};
       for (const field of ast.fields) {
         result[field.name.value] = parseLiteral(field.value);
       }
@@ -21,7 +20,7 @@ function parseLiteral(ast: ValueNode): any {
     }
 
     case Kind.LIST:
-      return ast.values.map(v => parseLiteral(v));
+      return ast.values.map((v) => parseLiteral(v));
 
     default:
       return null;
@@ -48,5 +47,4 @@ export const JSONScalar = new GraphQLScalarType({
 export const resolvers = {
   JSON: JSONScalar,
   Query,
-  // Mutation,
 };

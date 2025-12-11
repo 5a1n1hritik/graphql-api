@@ -1,24 +1,26 @@
-import { createYoga, createSchema } from "graphql-yoga";
-import { typeDefs } from "@/lib/graphql/schema";
+import { createSchema, createYoga } from "graphql-yoga";
 import { resolvers } from "@/lib/graphql/resolvers";
-// import { createContext } from "@/lib/graphql/context";
+import { typeDefs } from "@/lib/graphql/schema";
 
 export const { handleRequest } = createYoga({
   schema: createSchema({
     typeDefs,
-    resolvers
+    resolvers,
   }),
   graphqlEndpoint: "/api/graphql",
-  // context: createContext,
 
   fetchAPI: { Response },
 
   cors: {
-    origin: "*",            // ← allow all origins
+    origin: "*",
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
-    credentials: false
-  }
+    credentials: false,
+  },
 });
 
-export { handleRequest as GET, handleRequest as POST, handleRequest as OPTIONS };
+export {
+  handleRequest as GET,
+  handleRequest as POST,
+  handleRequest as OPTIONS,
+};

@@ -18,12 +18,10 @@
 //   }
 // };
 
-
 import { pageService } from "@/lib/product.service";
 
 export const Query = {
-  getPage: (_: any, { slug }: any) => {
-    return pageService.getPageBySlug(slug);
-  }
+  getPage: (_: unknown, args: { slug: string }) => {
+    return pageService.getPageBySlug(args.slug);
+  },
 };
-
