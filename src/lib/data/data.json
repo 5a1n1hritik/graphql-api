@@ -491,6 +491,292 @@
               }
             ]
           }
+        },
+        {
+          "id": "8f5gt54ed-cef3-e3-hj8cd-23456ygf",
+          "type": "carousel",
+          "variant": "default",
+          "props": {
+            "autoPlay": true,
+            "interval": 3000,
+            "loop": true,
+            "slides": [
+              {
+                "id": "slide-1",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+                  "alt": "Banner 1"
+                },
+                "title": "Welcome",
+                "subtitle": "Fast. Modular. Clean."
+              },
+              {
+                "id": "slide-2",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Banner 2"
+                },
+                "title": "Scale Properly",
+                "subtitle": "SRP-based UI components."
+              },
+              {
+                "id": "slide-3",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Banner 3"
+                },
+                "title": "Scale Properly",
+                "subtitle": "SRP-based UI components."
+              }
+            ]
+          }
+        },
+        {
+          "id": "8f5gt54ed-7yhnklp-c-hj8cd-23456ygf",
+          "type": "carousel",
+          "variant": "size-carousel",
+          "props": {
+            "autoPlay": true,
+            "interval": 3000,
+            "loop": true,
+            "orientation": "horizontal",
+            "slides": [
+              {
+                "id": "slide-1",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 1"
+                },
+                "title": "First Slide",
+                "subtitle": "This is the first slide",
+                "cta": {
+                  "label": "Learn More",
+                  "to": "/learn-more"
+                }
+              },
+              {
+                "id": "slide-2",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+                  "alt": "Slide 2"
+                },
+                "title": "Second Slide",
+                "subtitle": "This is the second slide"
+              },
+              {
+                "id": "slide-3",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 3"
+                },
+                "title": "Third Slide",
+                "subtitle": "This is the third slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-4",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 4"
+                },
+                "title": "Third Slide",
+                "subtitle": "This is the third slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-5",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 5"
+                },
+                "title": "Third Slide",
+                "subtitle": "This is the third slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-6",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 6"
+                },
+                "title": "Third Slide",
+                "subtitle": "This is the third slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "8f5gt54ed-7yhnklp-de-hj8cd-23456ygf",
+          "type": "carousel",
+          "variant": "spacing-carousel",
+          "props": {
+            "autoPlay": true,
+            "interval": 3000,
+            "loop": true,
+            "slides": [
+              {
+                "id": "slide-1",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 1"
+                },
+                "title": "First Slide",
+                "subtitle": "This is the first slide",
+                "cta": {
+                  "label": "Learn More",
+                  "to": "/learn-more"
+                }
+              },
+              {
+                "id": "slide-2",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+                  "alt": "Slide 2"
+                },
+                "title": "Second Slide",
+                "subtitle": "This is the second slide"
+              },
+              {
+                "id": "slide-3",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 3"
+                },
+                "title": "Third Slide",
+                "subtitle": "This is the third slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-4",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 4"
+                },
+                "title": "4 Slide",
+                "subtitle": "This is the 4 slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-5",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 5"
+                },
+                "title": "5 Slide",
+                "subtitle": "This is the 5 slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-6",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 6"
+                },
+                "title": "6 Slide",
+                "subtitle": "This is the 6 slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "8f5gt54ed-876rdcvbh8-hj8cd-23456ygf",
+          "type": "carousel",
+          "variant": "orientation-carousel",
+          "props": {
+            "autoPlay": true,
+            "interval": 3000,
+            "loop": true,
+            "orientation": "horizontal",
+            "slides": [
+              {
+                "id": "slide-1",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 1"
+                },
+                "title": "First Slide",
+                "subtitle": "This is the 1 slide",
+                "cta": {
+                  "label": "Learn More",
+                  "to": "/learn-more"
+                }
+              },
+              {
+                "id": "slide-2",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/343bc192-ae56-4c82-a571-06b1d30de71f",
+                  "alt": "Slide 2"
+                },
+                "title": "Second Slide",
+                "subtitle": "This is the 2 slide"
+              },
+              {
+                "id": "slide-3",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 3"
+                },
+                "title": "Third Slide",
+                "subtitle": "This is the 3 slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-4",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 4"
+                },
+                "title": "4 Slide",
+                "subtitle": "This is the 4 slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              },
+              {
+                "id": "slide-5",
+                "image": {
+                  "src": "https://image.lexica.art/full_jpg/7ac067c1-3986-4052-aa41-475d25608d87",
+                  "alt": "Slide 5"
+                },
+                "title": "5 Slide",
+                "subtitle": "This is the 5 slide",
+                "cta": {
+                  "label": "Buy Now",
+                  "to": "/buy"
+                }
+              }
+            ]
+          }
         }
       ]
     }
